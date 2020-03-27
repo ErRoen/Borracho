@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Source/Borracho/.vs/Borracho
+/Source/Borracho/Borracho.AzureFunction/.gitignore

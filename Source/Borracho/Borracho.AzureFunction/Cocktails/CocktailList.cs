@@ -593,6 +593,46 @@ namespace Borracho.AzureFunction.Cocktails
 /*   Singapore Sling   */
 /*   Daiquiri   */
 /*   Hemingway Daiquiri ???The Papa Doble???   */
+
+                /*   Hemingway Daiquiri   */
+                new Cocktail
+                {
+                    Name = "Hemingway Daiquiri",
+                    Ingredients = new List<Ingredient>
+                    {
+                        new Ingredient
+                        {
+                            Name = "Light Rum",
+                            Amount = 2M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Grapefruit Juice",
+                            Amount = .75M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Lime Juice",
+                            Amount = .5M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Maraschino Liqueur",
+                            Amount = .5M,
+                            Measurement = Measurement.Oz,
+                        },
+                    },
+                    Instructions = new List<string>
+                    {
+                        "Fill shaker with ice",
+                        "Add all ingredients",
+                        "Shake",
+                        "strain into cup",
+                    }
+                },
 /*   Paloma   */
 /*   Whiskey Sour   */
 /*   Hot Buttered Rum   */

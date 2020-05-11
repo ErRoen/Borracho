@@ -7,5 +7,6 @@ namespace Borracho.AzureFunction.Models
         public string Name { get; set; }
         public IEnumerable<Ingredient> Ingredients { get; set; }
         public IEnumerable<string> Instructions { get; set; }
+        public int Yield { get; set; }
     }
 }

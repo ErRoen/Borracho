@@ -865,10 +865,10 @@ namespace Borracho.AzureFunction.Cocktails
                     }
                 },
                 
-                /*   Some Name   */
+                /*   Covid-19 be Dampf'd   */
                 new Cocktail
                 {
-                    Name = "Some Name",
+                    Name = "Covid-19 be Dampf'd",
                     Ingredients = new List<Ingredient>
                     {
                         new Ingredient

@@ -899,6 +899,41 @@ namespace Borracho.AzureFunction.Cocktails
                         "express Orange peel over drink and drop it in"
                     }
                 },
+                
+                /*   Lemon Drop   */
+                new Cocktail
+                {
+                    Name = "Lemon Drop",
+                    Ingredients = new List<Ingredient>
+                    {
+                        new Ingredient
+                        {
+                            Name = "Vodka",
+                            Amount = 2M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Lemon Juice",
+                            Amount = 1M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Simple Syrup",
+                            Amount = 1,
+                            Measurement = Measurement.Oz,
+                        },
+                    },
+                    Instructions = new List<string>
+                    {
+                        "Put in bitters",
+                        "put in Simple Syrup",
+                        "put in bourbon",
+                        "put in ice",
+                        "express Orange peel over drink and drop it in"
+                    }
+                },
             };
         }
     }

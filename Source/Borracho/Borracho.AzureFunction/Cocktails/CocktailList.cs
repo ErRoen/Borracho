@@ -934,6 +934,109 @@ namespace Borracho.AzureFunction.Cocktails
                         "express Orange peel over drink and drop it in"
                     }
                 },
+                
+                /*   Lion's Tail   */
+                new Cocktail
+                {
+                    Name = "Lion's Tail",
+                    Ingredients = new List<Ingredient>
+                    {
+                        new Ingredient
+                        {
+                            Name = "Bourbon",
+                            Amount = 2M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "pimento dram (allspice)",
+                            Amount = .5M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Lime Juice",
+                            Amount = .5M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Simple Syrup",
+                            Amount = 1M,
+                            Measurement = Measurement.Teaspoon,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Angostura bitters",
+                            Amount = 1M,
+                            Measurement = Measurement.Dash,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Egg White",
+                            Amount = 1M,
+                            //Measurement = Measurement.,
+                        },
+                    },
+                    Instructions = new List<string>
+                    {
+                        "Dry Shake",
+                        "Shake w/ Ice",
+                        "Pour in Glass",
+                    }
+                },
+                
+                /*   Little Lion   */
+                new Cocktail
+                {
+                    Name = "Little Lion",
+                    Ingredients = new List<Ingredient>
+                    {
+                        new Ingredient
+                        {
+                            Name = "Genever",
+                            Amount = 1.75M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "pimento dram (allspice)",
+                            Amount = .25M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Lemon Juice",
+                            Amount = .75M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Rosemary Simple Syrup",
+                            Amount = .75M,
+                            Measurement = Measurement.Teaspoon,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Egg White",
+                            Amount = 1M,
+                            //Measurement = Measurement.,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Angostura bitters",
+                            Amount = 1M,
+                            Measurement = Measurement.Dash,
+                        },
+                    },
+                    Instructions = new List<string>
+                    {
+                        "Dry Shake all but bitters",
+                        "Shake w/ Ice",
+                        "Pour in Glass",
+                        "add five drops of bitters",
+                    }
+                },
             };
         }
     }

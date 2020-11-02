@@ -1037,6 +1037,103 @@ namespace Borracho.AzureFunction.Cocktails
                         "add five drops of bitters",
                     }
                 },
+                
+                /*   A La Mode   */
+                new Cocktail
+                {
+                    Name = "A La Mode",
+                    Ingredients = new List<Ingredient>
+                    {
+                        new Ingredient
+                        {
+                            Name = "Apple Du Nord liqueur",
+                            Amount = 2M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "heavy cream",
+                            Amount = 1.5M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Vanilla Extract",
+                            Amount = 2M,
+                            Measurement = Measurement.Dash,
+                        },
+                    },
+                    Instructions = new List<string>
+                    {
+                        "Shake w/ Ice",
+                        "Pour in Glass",
+                        "Top with freshly ground nutmeg",
+                    }
+                },
+                
+                /*   Ginger Apple Cider Cocktail   */
+                new Cocktail
+                {
+                    Name = "Ginger Apple Cider Cocktail",
+                    Ingredients = new List<Ingredient>
+                    {
+                        new Ingredient
+                        {
+                            Name = "Apple Jack",
+                            Amount = 2M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Apple Cider",
+                            Amount = 4M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Ginger Syrup",
+                            Amount = .5M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Lemon Juice",
+                            Amount = .5M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Liquor43",
+                            Amount = .5M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Pimento dram",
+                            Amount = .25M,
+                            Measurement = Measurement.Oz,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Angostura bitters",
+                            Amount = 1M,
+                            Measurement = Measurement.Dash,
+                        },
+                        new Ingredient
+                        {
+                            Name = "Cinnamon bitters",
+                            Amount = 1M,
+                            Measurement = Measurement.Dash,
+                        },
+                    },
+                    Instructions = new List<string>
+                    {
+                        "Shake w/ Ice",
+                        "Pour in Glass",
+                        "Garnish w/ candied ginger on toothpick",
+                        "Alternately serve hot"
+                    }
+                },
             };
         }
     }
